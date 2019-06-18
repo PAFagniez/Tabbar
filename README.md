@@ -58,10 +58,7 @@ class TabBarView(context: Context) : LinearLayout(context) {
 ```kotlin
 enum class TabBarState(val index: Int) {
     HOME(0),
-    SUGGESTION(1),
-    CAMERA(2),
-    NOTIFICATION(3),
-    PROFILE(4),
+    PROFILE(1)
 }
 
 //In the activity/fragment
