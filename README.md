@@ -24,8 +24,7 @@ private fun initTabBarController() {
         mHomeFragment = HomeFragment()
         
         mOtherFragment = OtherFragment()
-
-        mTabBarController?.clearHistory()
+        
         mTabBarController = TabBarController(
                 rootFragments(),
                 supportFragmentManager,
