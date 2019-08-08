@@ -1,5 +1,10 @@
 # Tab bar
 
+![Platform: Android 8+](https://img.shields.io/badge/platform-Android-68b846.svg?style=flat)
+[![Language: Kotlin](https://img.shields.io/badge/language-kotlin-7963FE.svg?style=flat)](https://kotlinlang.org)
+[![codebeat badge](https://codebeat.co/badges/2a5a83a4-0890-4386-af7a-325d50749e13)](https://codebeat.co/projects/github-com-pafgz-tabbar-master)
+[![License: MIT](http://img.shields.io/badge/license-Apache License 2.0-lightgrey.svg?style=flat)](https://github.com/Pafgz/Tabbar/blob/master/LICENSE)
+
 A tab bar controller to manage navigation using fragments.
 
 ## How to start
