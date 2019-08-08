@@ -3,7 +3,7 @@
 ![Platform: Android 8+](https://img.shields.io/badge/platform-Android-68b846.svg?style=flat)
 [![Language: Kotlin](https://img.shields.io/badge/language-kotlin-7963FE.svg?style=flat)](https://kotlinlang.org)
 [![codebeat badge](https://codebeat.co/badges/2a5a83a4-0890-4386-af7a-325d50749e13)](https://codebeat.co/projects/github-com-pafgz-tabbar-master)
-[![License: MIT](http://img.shields.io/badge/license-Apache_License_2.0-lightgrey.svg?style=flat)](https://github.com/Pafgz/Tabbar/blob/master/LICENSE)
+[![License: Apache](http://img.shields.io/badge/license-Apache_License_2.0-blue.svg?style=flat)](https://github.com/Pafgz/Tabbar/blob/master/LICENSE)
 
 A tab bar controller to manage navigation using fragments.
 
@@ -15,10 +15,10 @@ A tab bar controller to manage navigation using fragments.
 ```kotlin
 class MyActivity : Activity(), TabBarController.Delegate {  
     val mTabBarController: TabBarController()
-        
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-      
+
         mTabBarView.listener = tabBarController
     }
 }
@@ -27,9 +27,9 @@ class MyActivity : Activity(), TabBarController.Delegate {
 ```kotlin
 private fun initTabBarController() {
         mHomeFragment = HomeFragment()
-        
+
         mOtherFragment = OtherFragment()
-        
+
         mTabBarController = TabBarController(
                 rootFragments(),
                 supportFragmentManager,
@@ -69,7 +69,7 @@ enum class TabBarState(val index: Int) {
 tabBarController.switchTab(tabState.index)
 ```
 
-### To switch fragment 
+### To switch fragment
 ```kotlin
 tabBarController.pushFragment(fragment)
 ```
@@ -83,4 +83,3 @@ override fun onBackPressed() {
         }
 }
 ```
-
