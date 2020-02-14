@@ -41,7 +41,7 @@ class TabBarController(fragments: List<Fragment>,
         }
     }
 
-    var delegate: Delegate? by YPWeakReference()
+    var delegate: Delegate? = null
     private val tabHistory = TabHistory()
     private val fragmentStacks: MutableList<Stack<Fragment>>
     private var currentStackIndex: Int = 0
