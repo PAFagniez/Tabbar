@@ -15,8 +15,8 @@ class TabBarController(fragments: List<Fragment>,
                        private val mContainerId: Int) : TabBarViewListener {
 
     interface Delegate {
-        fun tabBarControlleShouldShowTabAtIndex(tabIndex: Int): Boolean
-        fun tabBarControlleDidGoBackToTabAtIndex(tabIndex: Int)
+        fun tabBarControllerShouldShowTabAtIndex(tabIndex: Int): Boolean
+        fun tabBarControllerDidGoBackToTabAtIndex(tabIndex: Int)
         fun tabBarControllerDidShowFragment(fragment: Fragment)
         fun tabBarClickRootFragmentAgain()
     }
